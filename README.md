@@ -1,106 +1,30 @@
 [![INFORMS Journal on Computing Logo](https://INFORMSJoC.github.io/logos/INFORMS_Journal_on_Computing_Header.jpg)](https://pubsonline.informs.org/journal/ijoc)
 
-# CacheTest
+# Data and Codes for "A Study on Optimal Release Schedule for Multi-Version Software"
 
-This archive is distributed in association with the [INFORMS Journal on
-Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE).
+This repository includes the R programming codes for evaluating the Cost and Goodness-of-fit of Multi-Version SRGMs for the following paper:
 
-The software and data in this repository are a snapshot of the software and data
-that were used in the research reported on in the paper 
-[This is a Template](https://doi.org/10.1287/ijoc.2019.0000) by T. Ralphs. 
-The snapshot is based on 
-[this SHA](https://github.com/tkralphs/JoCTemplate/commit/f7f30c63adbcb0811e5a133e1def696b74f3ba15) 
-in the development repository. 
-
-**Important: This code is being developed on an on-going basis at 
-https://github.com/tkralphs/JoCTemplate. Please go there if you would like to
-get a more recent version or would like support**
+Huang YS*, Fang CC, Chou CH, Tseng ZL, A Study on Optimal Release Schedule for Multi-Version Software. INFORMS Journal on Computing, 2023.
 
 ## Cite
 
-To cite the contents of this repository, please cite both the paper and this repo, using their respective DOIs.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
-https://doi.org/10.1287/ijoc.2019.0000
-
-https://doi.org/10.1287/ijoc.2019.0000.cd
-
-Below is the BibTex for citing this snapshot of the respoitory.
+To cite this software, please cite the paper using its DOI and the software itself, using the following DOI.
 
 ```
-@article{CacheTest,
-  author =        {T. Ralphs},
+@article{DBOTSROA21,
+  author =        {Y.S. Huang*, C.C. Fang, C.H. Chou, and Z.L. Tseng},
   publisher =     {INFORMS Journal on Computing},
-  title =         {{CacheTest}},
-  year =          {2020},
-  doi =           {10.1287/ijoc.2019.0000.cd},
-  note =          {available for download at https://github.com/INFORMSJoC/2019.0000},
+  title =         {A Study on Optimal Release Schedule for Multi-Version Software},
+  year =          {2023},
+  doi =           {10.5281/zenodo.XXXXXXX},
+  url =           {https://github.com/INFORMSJoC/2021.0141},
 }  
 ```
 
 ## Description
+The purpose of this repository is to share the data and codes for measuring the performance of goodness-of-fit analysis of multi-version software reliability growth models and evaluating the software testing cost under different cases. Our motivation is to present our application so that it can be easily replicated or further research can be conducted based on the analysis presented.
 
-The goal of this software is to demonstrate the effect of cache optimization.
-
-## Building
-
-In Linux, to build the version that multiplies all elements of a vector by a
-constant (used to obtain the results in [Figure 1](results/mult-test.png) in the
-paper), stepping K elements at a time, execute the following commands.
-
-```
-make mult
-```
-
-Alternatively, to build the version that sums the elements of a vector (used
-to obtain the results [Figure 2](results/sum-test.png) in the paper), stepping K
-elements at a time, do the following.
-
-```
-make clean
-make sum
-```
-
-Be sure to make clean before building a different version of the code.
-
-## Results
-
-Figure 1 in the paper shows the results of the multiplication test with different
-values of K using `gcc` 7.5 on an Ubuntu Linux box.
-
-![Figure 1](results/mult-test.png)
-
-Figure 2 in the paper shows the results of the sum test with different
-values of K using `gcc` 7.5 on an Ubuntu Linux box.
-
-![Figure 1](results/sum-test.png)
-
-## Replicating
-
-To replicate the results in [Figure 1](results/mult-test), do either
-
-```
-make mult-test
-```
-or
-```
-python test.py mult
-```
-To replicate the results in [Figure 2](results/sum-test), do either
-
-```
-make sum-test
-```
-or
-```
-python test.py sum
-```
-
-## Ongoing Development
-
-This code is being developed on an on-going basis at the author's
-[Github site](https://github.com/tkralphs/JoCTemplate).
-
-## Support
-
-For support in using this software, submit an
-[issue](https://github.com/tkralphs/JoCTemplate/issues/new).
+## Repository Structure
+There are two folders for readers’ reference. These codes were written in R programming language. The folder “GoodnessofFit” includes seven code files for obtaining the least squares estimation of the related model parameters under different testing datasets. The figures of the fitting results are also generated from these program files. The folder “CostEvaluation” includes three code files for evaluating the software testing cost under different cases. The settings of related data and parameters are also included in these program files. 
