@@ -18,7 +18,7 @@ To cite this software, please cite the paper using its DOI and the software itse
   publisher =     {INFORMS Journal on Computing},
   title =         {A Study on Optimal Release Schedule for Multi-Version Software},
   year =          {2023},
-  doi =           {10.5281/zenodo.XXXXXXX},
+  doi =           {10.1287/ijoc.2021.0141},
   url =           {https://github.com/INFORMSJoC/2021.0141},
 }  
 ```
