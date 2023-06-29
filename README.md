@@ -8,8 +8,6 @@ Huang YS*, Fang CC, Chou CH, Tseng ZL, A Study on Optimal Release Schedule for M
 
 ## Cite
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
-
 To cite this software, please cite the paper using its DOI and the software itself, using the following DOI.
 
 ```
