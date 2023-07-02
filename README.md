@@ -8,18 +8,16 @@ Huang YS*, Fang CC, Chou CH, Tseng ZL, A Study on Optimal Release Schedule for M
 
 ## Cite
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
-
 To cite this software, please cite the paper using its DOI and the software itself, using the following DOI.
 
 ```
-@article{DBOTSROA21,
+@article{OptMultiVerSoft,
   author =        {Y.S. Huang*, C.C. Fang, C.H. Chou, and Z.L. Tseng},
   publisher =     {INFORMS Journal on Computing},
   title =         {A Study on Optimal Release Schedule for Multi-Version Software},
   year =          {2023},
-  doi =           {10.5281/zenodo.XXXXXXX},
-  url =           {https://github.com/INFORMSJoC/2021.0141},
+  doi =           {10.1287/ijoc.2021.0141.cd},
+  note =          {Available for download at https://github.com/INFORMSJoC/2021.0141},
 }  
 ```
 
