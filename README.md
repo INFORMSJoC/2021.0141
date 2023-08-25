@@ -1,10 +1,10 @@
 [![INFORMS Journal on Computing Logo](https://INFORMSJoC.github.io/logos/INFORMS_Journal_on_Computing_Header.jpg)](https://pubsonline.informs.org/journal/ijoc)
 
-# Data and Codes for "A Study on Optimal Release Schedule for Multi-Version Software"
+# Data and Codes for ["A Study on Optimal Release Schedule for Multi-Version Software"](https://doi.org/10.1287/ijoc.2021.0141)
 
 This repository includes the R programming codes for evaluating the Cost and Goodness-of-fit of Multi-Version SRGMs for the following paper:
 
-Huang YS*, Fang CC, Chou CH, Tseng ZL, A Study on Optimal Release Schedule for Multi-Version Software. INFORMS Journal on Computing, 2023.
+Huang YS*, Fang CC, Chou CH, Tseng ZL, [A Study on Optimal Release Schedule for Multi-Version Software](https://doi.org/10.1287/ijoc.2021.0141). INFORMS Journal on Computing, 2023.
 
 ## Cite
 
